@@ -27,6 +27,25 @@ class DolgozoSeeder extends Seeder
             "szuletes" => "2001.03.04",
             "fizetes" => 40000
         ]);
+        DB::table("dolgozo")->insert([
+            "nev" => "Nagy Ágnes",
+            "varos" => "Budapest",
+            "szuletes" => "2000.02.28",
+            "fizetes" => 40000
+        ]);
+        DB::table("dolgozo")->insert([
+            "nev" => "Kiss Pál",
+            "varos" => "Pécs",
+            "szuletes" => "1998.02.03",
+            "fizetes" => 50000
+        ]);
+        
+        DB::table("dolgozo")->insert([
+            "nev" => "Szücs Áron",
+            "varos" => "Veszprém",
+            "szuletes" => "1997.01.30",
+            "fizetes" => 800000
+        ]);
 
         /*dolgozo::create([
             'nev' => 'John Addison',
